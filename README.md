@@ -17,8 +17,9 @@ Altair slc language2 drop down to open source matlab and execute sqlite with ext
       2 SLC    Create sqlite table class
       3 Matlab summarize sqlite class table
                select sex avg(ag) avg(height) avg(weight) from class group by sex
-      4 Matlab create a sqlite table with the summarized data
-      5 SLC    read and convert the sqlite class table to a sas dataset
+      4 Matlab convert sqlite table to matrix numbers
+      5 Matlab create a sqlite table with the summarized data
+      6 SLC    read and convert the sqlite class table to a sas dataset
 
 
     OBJECTIVE
